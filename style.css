@@ -1,0 +1,67 @@
+/* Estilos Generales */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Barra de Navegación */
+.navbar {
+    padding: 1rem;
+}
+
+.logo {
+    max-height: 50px;
+}
+
+/* Sección de Inicio */
+.hero {
+    position: relative;
+    height: 600px;
+    background: #ffffff;
+}
+
+.carousel-inner img {
+    height: 600px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    bottom: 20%;
+}
+
+/* Productos */
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Modal de Promociones */
+.modal-dialog {
+    max-width: 80%;
+}
+
+.modal-body img {
+    width: 100%;
+}
+
+/* Animaciones */
+.animate__animated {
+    animation-duration: 1s;
+}
+
+.animate__fadeIn {
+    animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
